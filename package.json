@@ -1,0 +1,30 @@
+{
+  "name": "html-primer",
+  "version": "1.0.0",
+  "description": "A small CLI utility that quickly generates HTML5 boilerplates",
+  "main": "./lib/html-primer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherwk210/html-primer.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "html",
+    "boilerplate"
+  ],
+  "preferGlobal": true,
+  "author": "Chris Anselmo <christopherwk210@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopherwk210/html-primer/issues"
+  },
+  "homepage": "https://github.com/christopherwk210/html-primer#readme",
+  "bin": {
+    "html-primer": "./lib/html-primer.js",
+    "html": "./lib/html-primer.js"
+  }
+}
