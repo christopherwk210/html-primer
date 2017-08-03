@@ -57,6 +57,13 @@
     },
     {
       "fields": [
+        "-q",
+        "--manifest"
+      ],
+      "description": "Include application manifest"
+    },
+    {
+      "fields": [
         "-i",
         "--icons"
       ],
