@@ -31,6 +31,7 @@
   "dependencies": {
     "chalk": "^2.0.1",
     "handlebars": "^4.0.10",
+    "js-beautify": "^1.6.14",
     "minimist": "^1.2.0"
   },
   "htmlPrimerOptions": [
