@@ -4,7 +4,8 @@
   "description": "A small CLI utility that quickly generates HTML5 boilerplates",
   "main": "./lib/html-primer.js",
   "scripts": {
-    "start": "node ./lib/html-primer.js"
+    "start": "node ./lib/html-primer.js",
+    "lint": "gulp lint"
   },
   "repository": {
     "type": "git",
@@ -33,36 +34,65 @@
   },
   "htmlPrimerOptions": [
     {
-      "fields": ["-h", "--help"],
+      "fields": [
+        "-h",
+        "--help"
+      ],
       "description": "Display help"
     },
     {
-      "fields": ["-f", "--fname"],
+      "fields": [
+        "-f",
+        "--fname"
+      ],
       "description": "Use custom filename"
     },
     {
-      "fields": ["-c", "--comments"],
+      "fields": [
+        "-c",
+        "--comments"
+      ],
       "description": "Include comments"
     },
     {
-      "fields": ["-t", "--twitter"],
+      "fields": [
+        "-t",
+        "--twitter"
+      ],
       "description": "Include Twitter Card metadata"
     },
     {
-      "fields": ["-o", "--open-graph"],
+      "fields": [
+        "-o",
+        "--open-graph"
+      ],
       "description": "Include Open Graph metadata"
     },
     {
-      "fields": ["-j", "--jquery"],
+      "fields": [
+        "-j",
+        "--jquery"
+      ],
       "description": "Include jQuery"
     },
     {
-      "fields": ["-n", "--normalize"],
+      "fields": [
+        "-n",
+        "--normalize"
+      ],
       "description": "Include Normalize.css"
     },
     {
-      "fields": ["-g", "--google"],
+      "fields": [
+        "-g",
+        "--google"
+      ],
       "description": "Include Google Analytics"
     }
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0"
+  }
 }
