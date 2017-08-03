@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "chalk": "^2.0.1",
+    "handlebars": "^4.0.10",
     "minimist": "^1.2.0"
   },
   "htmlPrimerOptions": [
@@ -67,6 +68,13 @@
         "--open-graph"
       ],
       "description": "Include Open Graph metadata"
+    },
+    {
+      "fields": [
+        "-m",
+        "--mobile"
+      ],
+      "description": "Include mobile web app metadata"
     },
     {
       "fields": [
