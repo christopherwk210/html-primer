@@ -35,6 +35,34 @@
     {
       "fields": ["-h", "--help"],
       "description": "Display help"
+    },
+    {
+      "fields": ["-f", "--fname"],
+      "description": "Use custom filename"
+    },
+    {
+      "fields": ["-c", "--comments"],
+      "description": "Include comments"
+    },
+    {
+      "fields": ["-t", "--twitter"],
+      "description": "Include Twitter Card metadata"
+    },
+    {
+      "fields": ["-o", "--open-graph"],
+      "description": "Include Open Graph metadata"
+    },
+    {
+      "fields": ["-j", "--jquery"],
+      "description": "Include jQuery"
+    },
+    {
+      "fields": ["-n", "--normalize"],
+      "description": "Include Normalize.css"
+    },
+    {
+      "fields": ["-g", "--google"],
+      "description": "Include Google Analytics"
     }
   ]
 }
