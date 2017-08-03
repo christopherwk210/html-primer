@@ -4,7 +4,7 @@
   "description": "A small CLI utility that quickly generates HTML5 boilerplates",
   "main": "./lib/html-primer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./lib/html-primer.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,15 @@
   "bin": {
     "html-primer": "./lib/html-primer.js",
     "html": "./lib/html-primer.js"
-  }
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "minimist": "^1.2.0"
+  },
+  "htmlPrimerOptions": [
+    {
+      "fields": ["-h", "--help"],
+      "description": "Display help"
+    }
+  ]
 }
