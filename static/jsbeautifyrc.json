@@ -1,5 +1,6 @@
 {
   "indent_size": 2,
   "indent_inner_html": true,
-  "extra_liners": [""]
+  "extra_liners": [""],
+  "end_with_newline": true
 }
