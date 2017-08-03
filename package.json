@@ -57,6 +57,13 @@
     },
     {
       "fields": [
+        "-i",
+        "--icons"
+      ],
+      "description": "Include favicon fields"
+    },
+    {
+      "fields": [
         "-t",
         "--twitter"
       ],
