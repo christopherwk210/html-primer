@@ -1,10 +1,10 @@
-# <div style="text-align:center">html-primer</div>
+<h1 align="center">html-primer</h1>
 
-<div style="text-align:center">
+<p align="center">
   <img src="./assets/demo.gif" alt="html-primer easily creates HTML5 boilerplate files">
-</div>
+</p>
 
-<div style="text-align:center">A small CLI utility that quickly generates HTML5 boilerplates.</div>
+<p align="center">A small CLI utility that quickly generates HTML5 boilerplates.</p>
 
 # Installation
 
