@@ -40,7 +40,7 @@ $ html [options]
 
 `-n` or `--normalize` Include Normalize.css (defaults to `false`)
 
-`-g` or `--google` Include Google Analytics (defaults to `false`)
+`-g` or `--google` Include Google Analytics (defaults to `false` and `UA-XXXXX-X` if no ID is passed)
 
 `-h` or `--help` Display help
 
@@ -54,6 +54,11 @@ $ html --fname="boilerplate.html" -c -g
 Generate an HTML5 boilerplate file with CDN links to jQuery and Normalize.css:
 ```
 $ html -j -n
+```
+
+Generate an HTML5 boilerplate file with Google Analytics using a custom ID:
+```
+$ html -g="UA-12345-6"
 ```
 
 # Development
