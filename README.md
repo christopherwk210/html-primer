@@ -15,10 +15,10 @@ $ npm install -g html-primer
 
 # Usage
 
-You can use `http-primer` or just `http`:
+You can use `html-primer` or just `html`:
 ```
-$ http-primer [options]
-$ http [options]
+$ html-primer [options]
+$ html [options]
 ```
 
 # Options
